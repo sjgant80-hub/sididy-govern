@@ -1,0 +1,12 @@
+{
+  "name": "sididy-govern",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "sididy-govern.mjs",
+  "description": "The resource gate — the second witness. Meters an autonomous loop's burn (compute/tokens/cost) and holds it in the kappa band: a runaway is capped at its budget, throttle rises as burn heats up.",
+  "author": "sjgant80-hub <sjgant80@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test"
+  }
+}

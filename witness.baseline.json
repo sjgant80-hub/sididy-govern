@@ -1,0 +1,7 @@
+[
+  {
+    "mutation": "<= → <",
+    "snippet": "const throttle = heat <= KAPPA ? 0 : Math.round(1000 * (heat - KAPPA)); // sink pulls hard",
+    "reason": "equivalent: at heat == KAPPA exactly, both branches yield 0 — the else branch computes Math.round(1000*(KAPPA-KAPPA)) = 0 — so `<=` and `<` are indistinguishable at the boundary"
+  }
+]
